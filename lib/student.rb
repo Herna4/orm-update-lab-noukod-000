@@ -23,7 +23,7 @@ class Student
         grade TEXT
         )
         SQL
-    DB[:conn].execute(sql)
+    DB[:conn].execute(sql)[0]
   end
   
   
