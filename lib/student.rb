@@ -23,5 +23,7 @@ class Student
       )
     SQL 
     
+    DB[:]
+    
   end
 end
