@@ -15,5 +15,6 @@ class Student
   end
   
   def self.create_table 
+    CREATE TABLE IF IS NOT EXISTS Students
   end
 end
