@@ -6,6 +6,7 @@ class Student
   #  with DB[:conn]
   
   attr_accessor :id, :name, :grade
-
+  
+  
 
 end
