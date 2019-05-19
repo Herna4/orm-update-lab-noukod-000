@@ -33,6 +33,13 @@ class Student
     SQL
     DB[:conn].execute(sql)
   end
+  
+  def self.drop_table
+    sql = <<-SQL
+    INSERT INTO students
+    SQL
+    DB[:conn].execute(sql)
+  end
     
   
 end
